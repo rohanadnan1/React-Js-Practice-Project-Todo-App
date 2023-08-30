@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy", sans-serif;
+}
+
+
+/* .app-container{
+    background: linear-gradient(rgb(0, 0, 0), blue, navy)
+} */
+ .container{
+    min-height: 100vh;
+    background-color: rgba(30, 62, 150, 0.329);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.container h1{
+    font-size: 3rem;
+}
+
+form{
+    display: flex;
+    flex-direction:column ;
+    width: 60%;
+    margin: 15px 0;
+}
+
+
+
+form input{
+    padding: 20px;
+    margin: 15px 0;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 10px;
+}
+
+#task-des{
+    height: 130px;
+}
+
+#task-btn{
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color: rgba(21, 219, 21, 0.418);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.task-div{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.task-div > div > h2{
+    margin: 12px 0;
+}
+
+.task-div > div > p{
+    font-size: 1.1rem;
+}
+
+#minus-task{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: red;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+#minus-task:hover{
+    background-color: rgba(255, 0, 0, 0.705);
+}
